@@ -38,21 +38,54 @@ export default function Resume() {
               </span>
             </div>
 
-            {/* PDF embed */}
-            <iframe
-              src={`${resumeFile}#view=FitH&toolbar=0&navpanes=0`}
-              title="Omkar Madchetti Resume"
-              className="w-full h-[410px] md:h-[780px]"
-            />
+            {/* Desktop View: PDF embed */}
+            <div className="hidden md:block">
+              <iframe
+                src={`${resumeFile}#view=FitH&toolbar=0&navpanes=0`}
+                title="Omkar Madchetti Resume"
+                className="w-full h-[780px] border-none"
+              />
+            </div>
+
+            {/* Mobile View: High-quality Preview Card */}
+            <div className="md:hidden flex flex-col items-center justify-center p-12 bg-neutral-900 text-center">
+              <div className="mb-6 p-4 rounded-xl bg-neutral-800 border border-neutral-700 shadow-inner">
+                <FaExternalLinkAlt className="text-4xl text-purple-500 mb-2 mx-auto" />
+                <p className="text-sm text-neutral-300 font-medium">Resume Preview</p>
+              </div>
+              <h3 className="text-xl font-bold mb-2">Omkar Madchetti</h3>
+              <p className="text-neutral-400 text-sm mb-8 px-4">
+                Click below to view the full resume in a new tab or download it directly.
+              </p>
+              <div className="flex flex-col w-full gap-3">
+                <a
+                  href={resumeFile}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full py-4 rounded-xl bg-purple-600/20 border border-purple-500/50 text-purple-400 font-bold flex items-center justify-center gap-2 hover:bg-purple-600/30 transition-all"
+                >
+                  <FaExternalLinkAlt size={16} />
+                  View Full Resume
+                </a>
+                <a
+                  href={resumeFile}
+                  download="OmkarMadchetti_Resume.pdf"
+                  className="w-full py-4 rounded-xl bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-all"
+                >
+                  <FaDownload size={16} />
+                  Download Resume
+                </a>
+              </div>
+            </div>
           </div>
         </motion.div>
 
-        {/* Action buttons */}
+        {/* Action buttons (Desktop Only) */}
         <motion.div
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="flex flex-wrap gap-4 justify-center"
+          className="hidden md:flex flex-wrap gap-4 justify-center"
         >
           <a
             href={resumeFile}
