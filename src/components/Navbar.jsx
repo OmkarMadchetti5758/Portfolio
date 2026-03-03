@@ -3,8 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import avatar from "/avatar.png";
-import about from '/profile4.png'
+import { IMAGES } from "../assets/image";
 
 const container = (delay) => ({
   hidden: { x: -500, opacity: 0 },
@@ -27,7 +26,7 @@ export default function Navbar() {
         initial="hidden"
         animate="visible" 
         className=" flex flex-row font-bold text-2xl">
-        <img src={about} className="mt-[1.5rem] lg:mt-4 mx-4 w-12" alt="logo"/>
+        <img src={IMAGES.PROFILE4} className="mt-[1.5rem] lg:mt-4 mx-4 w-12" alt="logo"/>
         <h1 className="mt-[2.2rem] lg:mt-[1.7rem] text-sm text-stone-300">@omkar</h1>
       </motion.div>
       <div

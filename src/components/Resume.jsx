@@ -42,8 +42,7 @@ export default function Resume() {
             <iframe
               src={`${resumeFile}#view=FitH&toolbar=0&navpanes=0`}
               title="Omkar Madchetti Resume"
-              className="w-full"
-              style={{ height: "780px" }}
+              className="w-full h-[410px] md:h-[780px]"
             />
           </div>
         </motion.div>

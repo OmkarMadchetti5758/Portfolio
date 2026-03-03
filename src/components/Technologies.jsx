@@ -1,21 +1,5 @@
 import { motion } from "framer-motion";
-import css from "/css.png";
-import expressjs from "/expressjs.png";
-import mongoose from "/mongoose.png";
-import git from "/git.png";
-import github from "/github.png";
-import html from "/html.png";
-import javascript from "/javascript.png";
-import materialui from "/material-ui.png";
-import mongodb from "/mongodb.png";
-import mongodbCompass from "/mongodbCompass.png";
-import nodejs from "/nodejs.png";
-import postman from "/postman.png";
-import reactjs from "/reactjs.png";
-import tailwind from "/tailwind.png";
-import vscode from "/vscode.png";
-import chrome from "/chrome.png";
-import docker from "/docker.png";
+import { IMAGES } from "../assets/image";
 import { SiMysql, SiRedis, SiApachekafka, SiPostgresql } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { DiJqueryLogo } from "react-icons/di";
@@ -87,11 +71,11 @@ export default function Technologies() {
         className="flex flex-wrap items-center justify-center gap-2 mb-12"
       >
         <SkillItem duration={3} delay={0.05}>
-          <img src={nodejs} alt="nodejs" className="w-16" />
+          <img src={IMAGES.NODE} alt="nodejs" className="w-16" />
           <Label className="text-green-400">Node.js</Label>
         </SkillItem>
         <SkillItem duration={2.5} delay={0.1}>
-          <img src={expressjs} alt="expressjs" className="w-16" />
+          <img src={IMAGES.EXPRESS} alt="expressjs" className="w-16" />
           <Label className="text-stone-400">Express.js</Label>
         </SkillItem>
         <SkillItem duration={2} delay={0.15}>
@@ -103,7 +87,7 @@ export default function Technologies() {
           <Label className="text-neutral-300">Kafka</Label>
         </SkillItem>
         <SkillItem duration={4} delay={0.25}>
-          <img src={javascript} alt="javascript" className="w-16" />
+          <img src={IMAGES.JS} alt="javascript" className="w-16" />
           <Label className="text-yellow-400">JavaScript</Label>
         </SkillItem>
       </motion.div>
@@ -124,13 +108,13 @@ export default function Technologies() {
         className="flex flex-wrap items-center justify-center gap-2 mb-12"
       >
         <SkillItem duration={4} delay={0.05}>
-          <img src={mongodb} alt="mongodb" className="w-16" />
+          <img src={IMAGES.MONGODB} alt="mongodb" className="w-16" />
           <Label className="bg-gradient-to-r from-green-400 to-yellow-800 bg-clip-text text-transparent">
             MongoDB
           </Label>
         </SkillItem>
         <SkillItem duration={2.5} delay={0.1}>
-          <img src={mongoose} alt="mongoose" className="w-16 mt-2" />
+          <img src={IMAGES.MONGOOSE} alt="mongoose" className="w-16 mt-0" />
           <Label className="text-red-500">Mongoose</Label>
         </SkillItem>
         <SkillItem duration={3} delay={0.15}>
@@ -161,7 +145,7 @@ export default function Technologies() {
         className="flex flex-wrap items-center justify-center gap-2 mb-12"
       >
         <SkillItem duration={2} delay={0.05}>
-          <img src={reactjs} alt="reactjs" className="w-16" />
+          <img src={IMAGES.REACT} alt="reactjs" className="w-16" />
           <Label className="text-cyan-300">React.js</Label>
         </SkillItem>
         <SkillItem duration={2.8} delay={0.1}>
@@ -169,19 +153,19 @@ export default function Technologies() {
           <Label className="text-cyan-400">React Native</Label>
         </SkillItem>
         <SkillItem duration={5} delay={0.15}>
-          <img src={tailwind} alt="tailwind" className="w-16" />
+          <img src={IMAGES.TAILWIND} alt="tailwind" className="w-16" />
           <Label className="text-cyan-400">Tailwind</Label>
         </SkillItem>
         <SkillItem duration={1.8} delay={0.2}>
-          <img src={css} alt="css" className="w-16" />
+          <img src={IMAGES.CSS} alt="css" className="w-16" />
           <Label className="text-cyan-400">CSS</Label>
         </SkillItem>
         <SkillItem duration={3} delay={0.25}>
-          <img src={html} alt="html" className="w-16" />
+          <img src={IMAGES.HTML} alt="html" className="w-16" />
           <Label className="text-orange-500">HTML</Label>
         </SkillItem>
         <SkillItem duration={3} delay={0.3}>
-          <img src={materialui} alt="materialui" className="w-16 h-16" />
+          <img src={IMAGES.MATIRIALUI} alt="materialui" className="w-16 h-16" />
           <Label className="text-cyan-400">Material UI</Label>
         </SkillItem>
         <SkillItem duration={1.5} delay={0.35}>
@@ -206,37 +190,35 @@ export default function Technologies() {
         className="flex flex-wrap items-center justify-center gap-4"
       >
         <SkillItem duration={2.5} delay={0.05}>
-          <img src={vscode} alt="vscode" className="w-16" />
+          <img src={IMAGES.VSCODE} alt="vscode" className="w-16" />
           <Label className="text-cyan-400">VS Code</Label>
         </SkillItem>
         <SkillItem duration={4} delay={0.1}>
-          <img src={chrome} alt="chrome" className="w-16" />
+          <img src={IMAGES.CHROME} alt="chrome" className="w-16" />
           <Label className="bg-gradient-to-r from-red-400 via-yellow-400 to-green-400 bg-clip-text text-transparent">
             Chrome
           </Label>
         </SkillItem>
         <SkillItem duration={1.5} delay={0.15}>
-          <img src={mongodbCompass} alt="mongodbCompass" className="w-16 mt-4" />
+          <img src={IMAGES.MONGODB_COMPASS} alt="mongodbCompass" className="w-16" />
           <Label className="text-green-400">
-            MongoDB
-            <br />
             Compass
           </Label>
         </SkillItem>
         <SkillItem duration={3} delay={0.2}>
-          <img src={postman} alt="postman" className="w-16" />
+          <img src={IMAGES.POSTMAN} alt="postman" className="w-16" />
           <Label className="text-orange-400">Postman</Label>
         </SkillItem>
         <SkillItem duration={5} delay={0.25}>
-          <img src={git} alt="git" className="w-16" />
+          <img src={IMAGES.GIT} alt="git" className="w-16" />
           <Label className="text-orange-500">Git</Label>
         </SkillItem>
         <SkillItem duration={2.5} delay={0.3}>
-          <img src={github} alt="github" className="w-16" />
+          <img src={IMAGES.GITHUB} alt="github" className="w-16" />
           <Label className="text-white">GitHub</Label>
         </SkillItem>
         <SkillItem duration={4} delay={0.35}>
-          <img src={docker} alt="docker" className="w-16" />
+          <img src={IMAGES.DOCKER} alt="docker" className="w-16" />
           <Label className="text-cyan-500">Docker</Label>
         </SkillItem>
         <SkillItem duration={3.5} delay={0.4}>

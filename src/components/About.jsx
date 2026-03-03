@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import omkar from "/omkar2.jpg";
+import { IMAGES } from "../assets/image";
 
 export default function About() {
   return (
@@ -21,7 +21,7 @@ export default function About() {
         >
           <div className="flex items-center justify-center">
             <img
-              src={omkar}
+              src={IMAGES.OMKAR}
               alt="Omkar Madchetti"
               className="rounded-full w-52 lg:mt-4"
             />

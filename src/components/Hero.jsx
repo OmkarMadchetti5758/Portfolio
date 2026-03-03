@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import profile from "/profile3.png";
+import { IMAGES } from "../assets/image";
 
 const container = (delay) => ({
   hidden: { x: -500, opacity: 0 },
@@ -126,7 +126,7 @@ export default function Hero() {
                   delay: 2.2,
                 },
               }}
-              src={profile}
+              src={IMAGES.PROFILE3}
               alt="Omkar Madchetti"
               className="drop-shadow-2xl hover:grayscale-0 transition-all duration-500 cursor-pointer"
               whileHover={{ scale: 1.05, rotate: 2 }}
