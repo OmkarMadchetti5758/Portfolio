@@ -33,50 +33,58 @@ export default function Navbar() {
       <div
         className="m-8 mt-12 flex items-center justify-center gap-5">
         <motion.a
-          initial={{x: 500, opacity: 0}}
-          animate={{x: 0, opacity: 1}}
-          transition={{ delay: 0.6, x: 0 }}
+          initial={{ x: 500, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 0.6, type: "spring", stiffness: 120 }}
+          whileHover={{ scale: 1.2, color: "#0077b5" }}
+          whileTap={{ scale: 0.9 }}
           href="https://www.linkedin.com/in/omkar-madchetti-25a195259"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn Profile"
-          className="text-2xl"
+          className="text-2xl transition-colors duration-300"
         >
           <FaLinkedin />
         </motion.a>
         <motion.a
-          initial={{x: 500, opacity: 0}}
-          animate={{x: 0, opacity: 1}}
-          transition={{ delay: 0.8, x: 0 }}
+          initial={{ x: 500, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 0.8, type: "spring", stiffness: 120 }}
+          whileHover={{ scale: 1.2, color: "#ffffff" }}
+          whileTap={{ scale: 0.9 }}
           href="https://github.com/OmkarMadchetti5758"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="LinkedIn Profile"
-          className="text-2xl"
+          aria-label="GitHub Profile"
+          className="text-2xl transition-colors duration-300"
         >
           <FaGithub />
         </motion.a>
         <motion.a
-          initial={{x: 500, opacity: 0}}
-          animate={{x: 0, opacity: 1}}
-          transition={{ delay: 1, x: 0 }}
+          initial={{ x: 500, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 1, type: "spring", stiffness: 120 }}
+          whileHover={{ scale: 1.2, color: "#1DA1F2" }}
+          whileTap={{ scale: 0.9 }}
           href="https://x.com/OmkarMadchetti"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="LinkedIn Profile"
-          className="text-2xl"
+          aria-label="Twitter Profile"
+          className="text-2xl transition-colors duration-300"
         >
           <FaSquareXTwitter />
         </motion.a>
         <motion.a
-          initial={{x: 500, opacity: 0}}
-          animate={{x: 0, opacity: 1}}
-          transition={{ delay: 1.2, x: 0 }}
+          initial={{ x: 500, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ delay: 1.2, type: "spring", stiffness: 120 }}
+          whileHover={{ scale: 1.2, color: "#E4405F" }}
+          whileTap={{ scale: 0.9 }}
           href="https://www.instagram.com/omkar__5758/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="LinkedIn Profile"
-          className="text-2xl"
+          aria-label="Instagram Profile"
+          className="text-2xl transition-colors duration-300"
         >
           <FaInstagram />
         </motion.a>
