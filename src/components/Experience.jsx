@@ -6,15 +6,15 @@ const experiences = [
   {
     company: "NDSoftTech Solutions",
     role: "Software Development Engineer Trainee",
-    previousRole: "(Previously MERN Intern)",
-    duration: "Oct 2025 – Present",
+    previousRole: "",
+    duration: "Oct 2025 – Jun 2026",
     location: "Pune, Maharashtra",
     color: "from-purple-500 to-pink-500",
     points: [
-      "Designed and maintained RESTful APIs with secure JWT-based authentication and role-based access control",
-      "Optimized PostgreSQL and MongoDB queries and indexes, reducing API response times by 30%",
-      "Contributed to backend and full-stack development with focus on performance and maintainability",
-      "Collaborated with frontend, QA, and product teams in Agile sprints to deliver production-ready features",
+      "Built EmpWorkSpace, a MERN SaaS HR portal, with real-time attendance verification using TensorFlow.js and face-api.js for employee identity validation",
+      "Implemented geo-fencing to validate employee location and restrict attendance check-ins to configured office boundaries",
+      "Developed secure document workflows using Cloudinary signed URLs, HR approvals, and RBAC-based access control",
+      "Built leave management workflows for Admin and Manager roles with approvals and real-time status notifications",
     ],
   },
   {
@@ -25,10 +25,10 @@ const experiences = [
     location: "Delhi, India",
     color: "from-cyan-500 to-blue-500",
     points: [
-      "Architected a secure multi-tenant SaaS backend using PostgreSQL with UUIDs, constraints, and soft deletes",
-      "Built modular REST APIs with pagination, filtering, and validation, improving query performance by 25%",
-      "Implemented authentication flows including OTP verification, password reset, and JWT lifecycle management",
-      "Integrated Role-Based Access Control (RBAC) for Super Admin, Tenant, and User roles",
+      "Developed a secure multi-tenant SaaS backend using PostgreSQL with UUIDs, constraints, and soft-delete mechanisms",
+      "Built modular RESTful APIs with pagination, filtering, and validation, improving query performance by 25%",
+      "Implemented secure authentication workflows including OTP verification, password reset, and JWT-based authentication",
+      "Implemented RBAC for Super Admin, Tenant, and User roles to enforce controlled resource access",
     ],
   },
 ];

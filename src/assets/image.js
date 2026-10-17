@@ -29,5 +29,9 @@ export const IMAGES = {
     MENTAL_HEALTH: 'https://res.cloudinary.com/omkarmadchetti/image/upload/v1772543081/mental-health_rgpctq.webp',
     TIC_TAC_TOE: 'https://res.cloudinary.com/omkarmadchetti/image/upload/v1772543079/tic-tac-toe_yhzvpa.webp',
     HOME_PAGE: 'https://res.cloudinary.com/omkarmadchetti/image/upload/v1772543081/home_page_c7wvme.webp',
-    OMKAR: 'https://res.cloudinary.com/omkarmadchetti/image/upload/v1772543481/omkar_j0x6km.webp'
+    // OMKAR: 'https://res.cloudinary.com/omkarmadchetti/image/upload/v1772543481/omkar_j0x6km.webp'
+    // OMKAR: 'https://res.cloudinary.com/omkarmadchetti/image/upload/v1792244564/Linkedin_profile2_yuezdn.png'
+    OMKAR: 'https://res.cloudinary.com/omkarmadchetti/image/upload/v1792244564/Linkedin_profile_j96sqp.png',
+    EMPWORKSPACE: 'https://res.cloudinary.com/omkarmadchetti/image/upload/v1792245289/favicon_1024_a51ndo.png',
+    MYSOCIETYSUITE : 'https://res.cloudinary.com/omkarmadchetti/image/upload/v1792245558/MySocietySuite_Icon_lightgray_azix8e.png'
 }

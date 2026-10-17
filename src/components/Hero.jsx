@@ -57,7 +57,6 @@ export default function Hero() {
     return () => clearTimeout(timeout);
   }, [charIndex, isDeleting, roleIndex]);
 
-
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -91,19 +90,20 @@ export default function Hero() {
               animate="visible"
               className="my-2 max-w-xl py-6 font-light tracking-tighter text-center lg:text-left"
             >
-              Backend-focused developer with{" "}
-              <span className="text-purple-400 font-medium">10+ months</span> of
+              Software Engineer with{" "}
+              <span className="text-purple-400 font-medium">1+ year</span> of
               hands-on experience building scalable SaaS applications using{" "}
               <span className="text-cyan-400 font-medium">
                 Node.js, Express.js, PostgreSQL
               </span>{" "}
               and <span className="text-cyan-400 font-medium">MongoDB</span>.
-              Strong in REST API design, JWT &amp; RBAC authentication,
+              Proficient in{" "}
+              <span className="text-cyan-400 font-medium">Core Java</span> and
+              OOP, with expertise in secure REST APIs, JWT &amp; RBAC,
               multi-tenant architectures, and database optimization. Experienced
-              in Agile teams, production deployments, and delivering secure,
-              performance-optimized backend services.
+              in Agile teams, production deployments, and delivering reliable
+              business solutions.
             </motion.p>
-
           </div>
         </div>
 

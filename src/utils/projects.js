@@ -2,6 +2,24 @@ import { IMAGES } from '../assets/image'
 
 export const PROJECTS = [
     {
+        title: "MySocietySuite",
+        image: IMAGES.MYSOCIETYSUITE,
+        description: "A multi-tenant society management platform for web and Android that digitizes daily housing-society operations with role-based access for residents, committee, accountants, guards, facility managers, and vendors. Covers live visitor approval, automated maintenance billing with online payments and late fees, a full accounting module, complaint ticketing, amenity and parking management, notices and polls, and an AI assistant.",
+        technologies: ["React.js", "Node.js", "Express.js", "MongoDB"], // TODO: add your tech stack
+        visit: "https://mysocietysuite.com/",
+        // github: "https://...",
+        duration: "Aug 2026 - Present",
+    },
+    {
+        title: "EmpWorkSpace (HR Portal)",
+        image: IMAGES.EMPWORKSPACE,
+        description: "A MERN SaaS HR portal with real-time face-verified attendance using TensorFlow.js and face-api.js, geo-fencing for office check-ins, secure document workflows with Cloudinary signed URLs and HR approvals, and leave management with real-time status notifications for Admin and Manager roles.",
+        technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "TensorFlow.js", "face-api.js", "Cloudinary"],
+        visit: "https://empworkspace.com/index",   // add if it's publicly deployed
+        // github: "https://...",  // add if the repo can be public
+        duration: "Jan 2025 – Jun 2026",
+    },
+    {
         title: "Book Store Application",
         image: IMAGES.BOOKSTORE,
         description: "A full-featured web-based bookstore with authentication, role-based access, order management, admin operations, and MongoDB schemas with Mongoose validations and indexing.",
@@ -35,38 +53,38 @@ export const PROJECTS = [
         github: 'https://github.com/OmkarMadchetti5758/E-village',
         duration: "Jan 2024 - Feb 2024"
     },
-    {
-        title: "Tic-Tac-Toe Game",
-        image: IMAGES.TIC_TAC_TOE,
-        description: "A ReactJs website to play tic tac toe game",
-        technologies: ["ReactJs", "TailwindCSS"],
-        visit: "https://xandoplayground.netlify.app/",
-        duration: "June 2024"
-    },
-    {
-        title: "Project Management System",
-        image: IMAGES.HOME_PAGE,
-        description: "A user-friendly project management system. Build entirely using React",
-        technologies: ["ReactJs", "Tailwind"],
-        visit: "https://projectmngtsys.netlify.app/",
-        github: 'https://github.com/OmkarMadchetti5758/Project-management',
-        duration: "April 2024"
-    },
-    {
-        title: "CGPA to Percentage Calculator",
-        image: IMAGES.CGPA,
-        description: "A ReactJs website to convert CGPA to Percentage",
-        technologies: ["ReactJs", "TailwindCSS"],
-        github: 'https://github.com/OmkarMadchetti5758/CGPA-to-Percentage',
-        duration: "April 2024"
-    },
-    {
-        title: "Personal Portfolio",
-        image: IMAGES.PROFILE,
-        description: "A Personal Portfolio website",
-        technologies: ["ReactJs", "TailwindCSS", "Framer Motion"],
-        visit: "https://omkarmadchetti.netlify.app/",
-        github: "https://github.com/OmkarMadchetti5758/Portfolio",
-        duration: 'Dec 2024 - Present'
-    },
+    // {
+    //     title: "Tic-Tac-Toe Game",
+    //     image: IMAGES.TIC_TAC_TOE,
+    //     description: "A ReactJs website to play tic tac toe game",
+    //     technologies: ["ReactJs", "TailwindCSS"],
+    //     visit: "https://xandoplayground.netlify.app/",
+    //     duration: "June 2024"
+    // },
+    // {
+    //     title: "Project Management System",
+    //     image: IMAGES.HOME_PAGE,
+    //     description: "A user-friendly project management system. Build entirely using React",
+    //     technologies: ["ReactJs", "Tailwind"],
+    //     visit: "https://projectmngtsys.netlify.app/",
+    //     github: 'https://github.com/OmkarMadchetti5758/Project-management',
+    //     duration: "April 2024"
+    // },
+    // {
+    //     title: "CGPA to Percentage Calculator",
+    //     image: IMAGES.CGPA,
+    //     description: "A ReactJs website to convert CGPA to Percentage",
+    //     technologies: ["ReactJs", "TailwindCSS"],
+    //     github: 'https://github.com/OmkarMadchetti5758/CGPA-to-Percentage',
+    //     duration: "April 2024"
+    // },
+    // {
+    //     title: "Personal Portfolio",
+    //     image: IMAGES.PROFILE,
+    //     description: "A Personal Portfolio website",
+    //     technologies: ["ReactJs", "TailwindCSS", "Framer Motion"],
+    //     visit: "https://omkarmadchetti.netlify.app/",
+    //     github: "https://github.com/OmkarMadchetti5758/Portfolio",
+    //     duration: 'Dec 2024 - Present'
+    // },
 ]
