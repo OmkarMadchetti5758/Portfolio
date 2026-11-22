@@ -2,7 +2,7 @@ import { IMAGES } from '../assets/image'
 
 export const PROJECTS = [
     {
-        title: "MySocietySuite",
+        title: "SocietySphere",
         image: IMAGES.MYSOCIETYSUITE,
         description: "A multi-tenant society management platform for web and Android that digitizes daily housing-society operations with role-based access for residents, committee, accountants, guards, facility managers, and vendors. Covers live visitor approval, automated maintenance billing with online payments and late fees, a full accounting module, complaint ticketing, amenity and parking management, notices and polls, and an AI assistant.",
         technologies: ["React.js", "Node.js", "Express.js", "MongoDB"], // TODO: add your tech stack
