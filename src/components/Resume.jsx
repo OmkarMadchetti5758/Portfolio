@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { FaDownload, FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Resume() {
-  const resumeFile = "/OmkarMadchetti_Resume(T).pdf";
+  const resumeFile = "/OmkarMadchetti_Resume.pdf";
 
   return (
     <div className="border-b border-neutral-900 pb-16">
